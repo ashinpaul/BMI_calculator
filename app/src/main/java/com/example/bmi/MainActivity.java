@@ -26,6 +26,7 @@ public class MainActivity extends Activity {
                 float h = Float.parseFloat(String.valueOf(e2.getText())) / 100;
                 float bmi = w / (h * h);
                 e3.setText(String.valueOf(bmi));
+
             }
         });
     }
